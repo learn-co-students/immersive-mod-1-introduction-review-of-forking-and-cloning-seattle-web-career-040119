@@ -14,17 +14,17 @@ The next thing you should do is... make sure you READ THE README!
 
 Once you've done that and you are ready to begin working, click the github symbol - nice!
 
-![github-symbol](https://curriculum-content.s3.amazonaws.com/git-workflow/immersive-mod-1-introduction-review-of-forking-and-cloning/github-symbol.png)
+![github-symbol](https://curriculum-content.s3.amazonaws.com/module-1/fork-and-clone-review/github-symbol.png)
 
 This will bring you to the lab repository in Github. Do not clone from this page! You need to FORK this lab - this will create a repository under your account. This is now your version of the lab to work on and make changes to.
 
 Click on this FORK button in the top right.
 
-![github-symbol](https://curriculum-content.s3.amazonaws.com/git-workflow/immersive-mod-1-introduction-review-of-forking-and-cloning/fork.png)
+![fork](https://curriculum-content.s3.amazonaws.com/module-1/fork-and-clone-review/fork.png)
 
 This will bring you to the forked version of the lab. If you see your username in front of the lab name, you are in the correct place!
 
-![github-symbol](https://curriculum-content.s3.amazonaws.com/git-workflow/immersive-mod-1-introduction-review-of-forking-and-cloning/clone.png)
+![clone](https://curriculum-content.s3.amazonaws.com/module-1/fork-and-clone-review/clone.png)
 
 If you are opening up a fresh window in terminal, I would highly suggest the following:
 1. ```pwd``` to PRINT WORKING DIRECTORY. This will tell you where you are in your file tree.
@@ -33,7 +33,7 @@ If you are opening up a fresh window in terminal, I would highly suggest the fol
 4. ```ls``` again to see what folders you have inside of ```Development```. You should have a folder called ```code```!
 5. ```cd``` into ```code```.
 
-![github-symbol](https://curriculum-content.s3.amazonaws.com/git-workflow/immersive-mod-1-introduction-review-of-forking-and-cloning/folders.png)
+![folders](https://curriculum-content.s3.amazonaws.com/module-1/fork-and-clone-review/folders.png)
 
 NOW! when you're in your ```code``` folder:
 
@@ -41,7 +41,7 @@ On the forked version of the lab, click on the GREEN CLONE button.
 
 The copy button (circled in purple below) will copy the path. Make sure that you see "Clone with SSH" in bold text above this button. If you instead see "Clone with HTTPS", click on the blue link above the copy button that says "Use SSH".
 
-![github-symbol](https://curriculum-content.s3.amazonaws.com/git-workflow/immersive-mod-1-introduction-review-of-forking-and-cloning/clone.png)
+![clone](https://curriculum-content.s3.amazonaws.com/module-1/fork-and-clone-review/clone.png)
 
 Back in terminal - type ```git clone``` and cmd + v to paste the path. This will clone the lab.
 
@@ -49,7 +49,7 @@ When the lab has been cloned, you need to ```cd``` into the newly created folder
 
 NOW you can run ```learn```!
 
-![github-symbol](https://curriculum-content.s3.amazonaws.com/git-workflow/immersive-mod-1-introduction-review-of-forking-and-cloning/clone-in-folder.png)
+![clone in folder](https://curriculum-content.s3.amazonaws.com/module-1/fork-and-clone-review/clone-in-folder.png)
 
 If you see an error message saying that you cannot run ```learn```, you should run ```bundle install``` and try running ```learn``` again!
 
